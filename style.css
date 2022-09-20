@@ -1,0 +1,38 @@
+/*                                Range */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: absolute;
+top: 5%;
+
+}
+div {
+  width: 25rem;
+  height: 15rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  background: linear-gradient(to top,rgb(255, 142, 161) 50%, gray 50%);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(85, 85, 85);
+}
+#rangenumber {
+  margin-bottom: 0;
+  margin-left: 170px;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rangeslider {
+  height: 2px;
+  width: 20rem;
+  border-radius: 20%;
+}
